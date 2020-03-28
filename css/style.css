@@ -1,3 +1,9 @@
+@media only screen and (max-width: 768px) {
+	.layer-1 {background-position: -280px 0 !important;}
+	.agenda-box img { width: 75% !important; margin-bottom: 100px !important;}
+	.nav-lb { margin-left: 45px !important; }
+	.nav-lb li { margin-right: 60px !important; }
+}
 section {
 	min-height: 300px;
 }
