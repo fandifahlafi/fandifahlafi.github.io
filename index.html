@@ -7,180 +7,141 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/all.min.css">
     <link rel="stylesheet" type="text/css" href="css/fontawesome.min.css">
-
     <title>Sinema Kadirian</title>
   </head>
   <body>
-    <div class="nav-bar">
-      <ul>
-          <li><a href="#about" class="page-scroll">About</a></li>
-          <li><a href="#agenda" class="page-scroll">Agenda</a></li>
-      </ul>
-    </div>
-  	<!-- parallax -->
+<!-- Nav Bar -->
+  <div class="nav-bar">
+    <ul>
+    <li>
+      <a href="#agenda" class="page-scroll">Agenda</a>
+    </li>
+    <li>
+      <a href="#about" class="page-scroll">About</a>
+    </li>
+    </ul>
+  </div>
+<!-- end of Nav Bar -->
+
+<!-- parallax -->
     <div class="parallax">
       <div class="layer-1"></div>
       <div class="layer-2"></div>
       <div class="layer-3"></div>
       <div class="layer-4"></div>
-      	<div class="sinema text-center">
-          <img src="img/sinema-kadirian.png" alt="sinema-kadirian" class="sinema-kadirian">
-        	<h1>Sinema Kadirian</h1>
-        	<p><em>Based on community</em></p>
+      <div class="logo text-center">
+        <img src="img/sinema-kadirian.png" alt="sinema kadirian" class="sinema-kadirian">
+        <h2>Sinema Kadirian</h2>
+        <p><em>Based on community</em></p>
       </div>
     </div>
-    <!-- parallax -->
-   
+<!-- end of parallax -->
 
-    <!-- agenda -->
-   	<section class="agenda" id="agenda">
-	    <div class="container">
-	    	<div class="row text-center">
-	    		<div class="col-sm-4">
-              <img src="img/agenda/thumb/1.jpg" alt="Marlina" onclick="openLb();currentSlide(1);" class="poster-agenda">
-	    		</div>
-          <div class="col-sm-4">
-              <img src="img/agenda/thumb/2.jpg" alt="Screening and Discussion" onclick="openLb();currentSlide(2)" class="poster-agenda">
-          </div>
-          <div class="col-sm-4">
-              <img src="img/agenda/thumb/3.jpg" alt="Brafis" onclick="openLb();currentSlide(3);" class="poster-agenda">
-          </div>
-  <!-- lightbox -->
-          <div id="lightbox" class="lb-model">
-            <div class="nav-lb">
-              <ul>
-                <li>
-                  <button type="button" class="prev-lb btn btn-primary" onclick="plusSlides(-1);">Previous</button>
-                </li>
-                <li>  
-                  <button type="button" class="close-lb btn btn-danger" onclick="closeLb();">&times;</button>
-                </li>
-                <li>  
-                  <button type="button" class="next-lb btn btn-primary" onclick="plusSlides(1);">Next</button>
-                </li>  
-              </ul>
-            </div>
-            <div class="lightbox-content">
-              <div class="row">
-                <div class="col-sm-5">
-                <div class="agenda-box">
-                   <img src="img/agenda/full/1.jpg" style="max-width: 100%; height: auto;">
-                   <div class="text-box">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                   tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                   quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</div>
-                </div>             
-                </div>
-                  <div class="col-sm-7">
-                     <div class="pict">
-                        <img src="img/agenda/full/pict/1.jpg">
-                        <img src="img/agenda/full/pict/2.jpg">
-                        <img src="img/agenda/full/pict/3.jpg">
-                        <img src="img/agenda/full/pict/4.jpg">
-                      </div>
-                  </div>
-                </div>
-            </div>
-            <div class="lightbox-content">
-              <div class="row">
-                <div class="col-sm-5">
-                  <div class="agenda-box">
-                    <img src="img/agenda/full/2.jpg">
-                    <div class="text-box">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</div>
-                  </div>             
-                </div>
-                <div class="col-sm-7">
-                     <div class="pict">
-                        <img src="img/agenda/full/pict/1.jpg">
-                        <img src="img/agenda/full/pict/2.jpg">
-                        <img src="img/agenda/full/pict/3.jpg">
-                        <img src="img/agenda/full/pict/4.jpg">
-                      </div>
-                  </div>
-              </div>
-            </div>
-              <div class="lightbox-content">
-              <div class="row">
-                <div class="col-sm-5">
-                  <div class="agenda-box">
-                    <img src="img/agenda/full/3.jpg">
-                    <div class="text-box">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</div>
-                  </div>             
-                </div>
-                <div class="col-sm-7">
-                     <div class="pict">
-                        <img src="img/agenda/full/pict/1.jpg">
-                        <img src="img/agenda/full/pict/2.jpg">
-                        <img src="img/agenda/full/pict/3.jpg">
-                        <img src="img/agenda/full/pict/4.jpg">
-                      </div>
-                  </div>
-           </div>
-          </div>
-	    	</div>
-	    </div>
-	</section>
-	<!-- akhir agenda -->
-
-
-  <!-- support -->
-  <section class="support" id="support">
+<!-- history -->
+  <section class="history" id="history">
     <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <hr>
+      <div class="row text-center">
+        <div class="col history-title">
+          <h5>Sinema Kadirian</h5>
+          <h2>THE BEGINNING OF THE JOURNEY</h2>
         </div>
       </div>
-      <div class="row">
-        <div class="layout-pic">
-          <ul>
-              <li>
-                  <img src="img/support/ladang-bibit.png">
-              </li>
-              <li>
-                  <img src="img/support/sinema-kadirian.png">
-              </li>
-              <li>
-                  <img src="img/support/brafis.png">
-              </li>
-              <li>
-                  <img src="img/support/infokediri.png">
-              </li>
-              <li>
-                  <img src="img/support/aktivis-peneleh.png">
-              </li>
-              <li>
-                  <img src="img/support/stackoverflow.png">
-              </li>
-              <li>
-                  <img src="img/support/hvs.png">
-              </li>
-              <li>
-                  <img src="img/support/kediriapik.png">
-              </li>
-         </ul>
-        </div>
-      </div>
-          <div class="row">
-          <div class="col-sm-12">
-            <hr>
+          <div class="row justify-content-center history-content">
+            <div class="col-lg-4 content-left">
+              22 April 2018
+              <br>
+              <br>
+              Starting with the screening and discussion of the film at the Situs Pojok Persada Soekarno, film activists followed up by forming the Whatsapp Sinema Kadirian group as a communication forum for film activists.
+              <br>
+              <br>
+              They are film activists students and alumni. After a number of discussions, the Sinema Kadirian activists finally agreed to organize activities: screening and discussion of the film Marlina the Murderer in Four Acts.
+            </div>
+            <div class="col-lg-3 content-right">
+              From just a forum, finally followed up with the formation of the organization. Attended by Danu Sukendro, Rahman and Muhammad Prasetyo as founder, Muhammad Adde Rheno was chosen as the chairman of the organization
+              <br>
+              <br>
+              Going forward, Sinema Kadirian has a great enthusiasm for greater breakthroughs. For the sake of stretching the film in Kediri.
+            </div>
           </div>
     </div>
   </section>
-  <!-- akhir support -->
-  <!-- about -->
+<!-- end of history -->
+
+<!-- agenda -->
+<section class="agenda" id="agenda">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-10 agenda-1">
+        <div class="row text-center">
+          <div class="col-lg">
+            <img src="img/agenda/thumb/1.jpg" class="poster-agenda" onclick="openLb();currentSlide(1);">
+          </div>
+          <div class="col-lg">
+            <img src="img/agenda/thumb/2.jpg" class="poster-agenda" onclick="openLb();currentSlide(2);">
+          </div>
+          <div class="col-lg">
+            <img src="img/agenda/thumb/3.jpg" class="poster-agenda" onclick="openLb();currentSlide(3);">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="lightbox" id="lightbox">
+      <div class="lb-content"> 
+        <div class="row justify-content-center">
+          <div class="col-lg-7 lb-text">
+            <p>At our first event, the 2018 FFI award-winning film and the 2018 Asian World Film Festival; Marlina the Murderer in Four Acts will be the subject of our appreciation and discussion. The discussion was held on December 29, 2018, at BBSTV Kediri Station with speakers who were experts in their fields. Among them are Sony Sudarsono Videography Practitioner, Iwan Kapit Literacy Activist, and Premy Bimbim Film Maker Hisstory Film.</p>
+            <br>
+            <div class="btn btn-primary" onclick="plusSlides(-1);">Previous</div>
+            <div class="btn btn-danger" onclick="closeLb();">X</div>
+            <div class="btn btn-primary" onclick="plusSlides(-1);">Next</div>
+          </div>
+          <div class="col-lg-4 text-center">
+              <img src="img/agenda/full/1.jpg" class="pict-1">
+          </div>
+        </div>
+      </div>
+      <div class="lb-content"> 
+        <div class="row justify-content-center">
+          <div class="col-lg-7 lb-text">
+            <p>at this event we screened films from filmmakers, especially in Kediri, each Brilliant Production film titled Pelangi Tanpa Jingga and a film by Cinema KPI IAIN Kediri titled Srawung Mbois 2.</p>
+            <br>
+            <div class="btn btn-primary" onclick="plusSlides(-1);">Previous</div>
+            <div class="btn btn-danger" onclick="closeLb();">X</div>
+            <div class="btn btn-primary" onclick="plusSlides(-1);">Next</div>
+          </div>
+          <div class="col-lg-4 text-center">
+              <img src="img/agenda/full/2.jpg" class="pict-2">
+          </div>
+        </div>
+      </div>
+      <div class="lb-content"> 
+        <div class="row justify-content-center">
+          <div class="col-lg-7 lb-text">
+            <p><b>Brafis 2020</b> is a screening and discussion of 10 short films by the filmmaker Kediri, which are shown from noon to night. That night, there was also a special screening for the long film "Tengkorak"</p>
+            <br>
+            <div class="btn btn-primary" onclick="plusSlides(-1);">Previous</div>
+            <div class="btn btn-danger" onclick="closeLb();">X</div>
+            <div class="btn btn-primary" onclick="plusSlides(-1);">Next</div>
+          </div>
+          <div class="col-lg-4 text-center">
+              <img src="img/agenda/full/3.jpg" class="pict-3">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end of agenda -->
+
+<!-- About Us -->
   <section class="about" id="about">
     <div class="container">
-      <div class="row">
-        <div class="col-sm-6 offset-3 text-center">
-          <p class="about-content"><b>Sinema Kadirian</b> is a community with a variety of film discourse in the area of ​​Kediri.
-            <b>Make | Create | Appreciate</b></p>
+      <div class="row justify-content-center">
+        <div class="col-lg-6 text-center">
+          <p><em>" the establishment of <b>Sinema Kadirian</b> as a means of communication for <b>young filmmakers in Kediri</b>, so that those interested in cinema have a place <b>to share, work and actualize themselves. "</b></em></p>
           <a href="https://www.instagram.com/sinemakadirian">
             <img src="img/instagram.png" alt="sinema-kadirian" class="ig-logo">
           </a>
@@ -188,30 +149,44 @@
       </div>
     </div>
   </section>
-  <!-- akhir about -->
-  
-  <!-- footer -->
-    <div class="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <p class="text-center"><img src="img/sinema-kadirian.png">2020 Copyright | Kediri, East Java 64132 | <i class="far fa-envelope"></i> sinemakadirian@gmail.com</p>
+<!-- end of about us -->
+
+<!-- partner -->
+<section class="partner" id="partner">
+  <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-7">
+          <div class="row text-center">
+            <div class="col partner-content">
+              <img src="img/support/sinema-kadirian.png">
+            </div>
+            <div class="col partner-content">
+              <img src="img/support/ladang-bibit.png">
+            </div>
+            <div class="col partner-content">
+              <img src="img/support/kediriapik.png">
+            </div>
+            <div class="col partner-content">
+              <img src="img/support/brafis.png">
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  <!-- akhir footer -->
+  </div>
+</section>
+<!-- end of partner -->
 
-
-
+<!-- footer -->
+  <div class="footer text-center">
+    <span><img src="img/sinema-kadirian.png">2020 Copyright | Kediri, East Java 64132 | <i class="far fa-envelope"></i> sinemakadirian@gmail.com</span>
+  </div>
+<!-- end of footer -->
 
 
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-  src="js/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
   </body>
